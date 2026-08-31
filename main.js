@@ -1,6 +1,6 @@
     const button = document.getElementById('button1')
     button.addEventListener('click' ,function loadDoc (){
-         const demo = document.getElementById('demo')
+        const demo = document.getElementById('demo')
 
         const xhttp = new XMLHttpRequest()
         xhttp.onload = function() {
